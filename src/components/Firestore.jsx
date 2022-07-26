@@ -12,7 +12,7 @@ import {
 const Firestore = (props) => {
   const [tareas, setTareas] = useState([]);
   const [tarea, setTarea] = useState("");
-  const [modoEdicion, setModoEdicion] = useState(false);
+  const [modoEdicion, setModoEdicion] = useState(true);
   const [id, setId] = useState("");
 
 
